@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar mensaje</title>
+</head>
+<body>
+    <h1>Enviar mensaje al tablero LED</h1>
+    <form id="formulario-mensaje">
+        <label for="mensaje-usuario">Mensaje:</label>
+        <input type="text" id="mensaje-usuario" name="mensaje-usuario" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
